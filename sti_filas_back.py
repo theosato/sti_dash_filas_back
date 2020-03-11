@@ -22,7 +22,7 @@ class Fila(db.Model):
     tempoFila = db.Column(db.String(30), unique=False)
     vazaoFila = db.Column(db.String(30), unique=False)
     duracaoFila = db.Column(db.String(30), unique=False)
-    dataAtracao = db.Column(DateTime, default=datetime.datetime.utcnow)
+    dataAtracao = db.Column(db.String(80), default=datetime.datetime.utcnow)
     def __init__(self, nomeAtracao, quantPessoas, tempoFila, vazaoFila, duracaoFila, dataAtracao):
         self.nomeAtracao = nomeAtracao
         self.quantPessoas = quantPessoas
