@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  sti_filas_back:
+    container_name: sti_filas_back_v1
+    image: theosato/sti_filas_back:41 #aqui é preciso usar o seu repositório
+    ports:
+      - '5000:5000' # Aqui é definida a porta pela qual será acessado o serviço. O primeiro elemento é a porta exposta pelo contêiner e o segundo elemento é a porta usada pela imagem.
