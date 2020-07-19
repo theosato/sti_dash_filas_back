@@ -1,5 +1,5 @@
 # Sem Tempo, Irmão - BackEnd
-FrontEnd application of Sem Tempo Irmão project to PCS3853 (Laboratório de Engenharia de Software II) discipline at Polytechnic School of the University of São Paulo. 
+BackEnd application of Sem Tempo Irmão project to PCS3853 (Laboratório de Engenharia de Software II) discipline at Polytechnic School of the University of São Paulo. 
 
 ## Autor
 Matheus da Silva Sato
